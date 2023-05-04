@@ -1,5 +1,6 @@
 from flask import Flask
-from .extensions import db, migrate
+from .extensions import db, migrate, login_manager
+from .models import User
 
 def create_app():
     app = Flask(__name__)
@@ -12,6 +13,7 @@ def create_app():
     print(f'initialized: {db}')
     migrate.init_app(app, db)
     print(f'initialized: {migrate}')
+    login_manager.init_app(app)
 
     # register blueprints
     from .routes import users as users_bp,\
@@ -22,5 +24,9 @@ def create_app():
     app.register_blueprint(order_bp)
     print(f'blueprints registered: {users_bp}, {order_bp}, {product_bp}')
     
+    @login_manager.user_loader
+    def load_user(user_id):
+        return User.query.get(int(user_id))
+
 
     return app
