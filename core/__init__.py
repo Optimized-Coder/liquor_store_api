@@ -7,6 +7,7 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = \
         'sqlite:///main.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    app.config['SECRET_KEY'] ='jhiufuyvr8fref4j'
 
     # initialize extensions
     db.init_app(app)
