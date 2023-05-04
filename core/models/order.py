@@ -15,16 +15,13 @@ class Order(db.Model):
     date = db.Column(db.DateTime, default=datetime.utcnow)
     status = db.Column(db.String(100), default='pending')
     
-    def __repr__(self):
-        return '<Order {}>'.format(self.id)
-    
     def to_dict(self):
         return {
             'id': self.id,
             'user_id': self.user_id,
-            'product_id': self.product_id,
+            'products': [product.name for product in self.products],
             'quantity': self.quantity,
             'value': self.value,
             'date': self.date,
-           'status': self.status
+            'status': self.status
         }
