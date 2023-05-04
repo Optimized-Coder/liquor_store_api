@@ -16,6 +16,10 @@ def add_product():
 def get_product(id):
     pass
 
+@products.route('/<brand>/', methods=['GET'])
+def get_products_by_brand(brand):
+    pass
+
 @products.route('/<int:id>/edit/', methods=['PUT', 'GET'])
 def edit_product(id):
     pass
