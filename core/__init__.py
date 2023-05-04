@@ -19,10 +19,12 @@ def create_app():
     # register blueprints
     from .routes import users as users_bp,\
                     products as product_bp,\
-                    orders as order_bp
+                    orders as order_bp,\
+                    api_user as api_bp
     app.register_blueprint(users_bp)
     app.register_blueprint(product_bp)
     app.register_blueprint(order_bp)
+    app.register_blueprint(api_bp)
     print(f'blueprints registered: {users_bp}, {order_bp}, {product_bp}')
     
     @login_manager.user_loader
