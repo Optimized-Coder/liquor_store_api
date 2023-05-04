@@ -1,0 +1,247 @@
+openapi: 3.0.1
+info:
+  title: Liquor Store API
+  version: 1.0.0
+  description: >-
+    The objective of this project is to develop an Online Liquor Store API that
+    allows customers to browse, purchase, and receive delivery of alcoholic
+    beverages from the comfort of their own home. The API will be designed to
+    facilitate seamless integration with a variety of e-commerce platforms,
+    enabling users to easily add products to their shopping carts and complete
+    transactions.
+servers:
+  - url: http://127.0.0.1:5000/
+    variables: {}
+    description: This is the development API base server
+paths:
+  /users:
+    summary: See all users
+    description: This paths givens a JSON array of all users
+    get:
+      summary: See all users
+      description: This paths givens a JSON array of all users
+      operationId: get_users
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Users
+  /users/add:
+    summary: Add a user
+    description: This paths adds a user to the database
+    post:
+      summary: Add a user
+      description: This paths adds a user to the database
+      operationId: add_user
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Users
+  /users/{user_id}:
+    summary: Get one user
+    description: This path retrieves a single user by the specified ID
+    get:
+      summary: Get one user
+      description: This path retrieves a single user by the specified ID
+      operationId: get_single_user
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Users
+  /users/{user_id}/delete:
+    summary: Delete a user
+    description: This path deletes a user from the database
+    delete:
+      summary: Delete user
+      description: This path deletes a user from the database
+      operationId: delete_user
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Users
+  /users/{user_id}/edit:
+    summary: Edit a user
+    description: This path edits the user details and updates them in the database
+    put:
+      summary: Edit a user
+      description: This path edits the user details and updates them in the database
+      operationId: edit_user
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Users
+  /products:
+    summary: Get all products
+    description: This path retrieves a list of all products from the database
+    get:
+      summary: Get all products
+      description: This path retrieves a list of all products from the database
+      operationId: get_products
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Products
+  /products/add:
+    summary: Create a product
+    description: This path adds a new product to the database
+    post:
+      summary: Create a product
+      description: This path adds a new product to the database
+      operationId: add_product
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Products
+  /products/{product_id}:
+    summary: Get one product
+    description: This path retrieves the data of a single product from the database
+    get:
+      summary: Get one product
+      description: This path retrieves the data of a single product from the database
+      operationId: get_single_product
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Products
+  /products/{product_id}/edit:
+    summary: Edit a product
+    description: This path edits the product data and appends changes to the database
+    put:
+      summary: Edit a product
+      description: This path edits the product data and appends changes to the database
+      operationId: edit_product
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Products
+  /products/{product_id}/delete:
+    summary: delete a product
+    description: 'This path removes a product by the specified product ID from the database '
+    delete:
+      summary: delete a product
+      description: >-
+        This path removes a product by the specified product ID from the
+        database
+      operationId: delete_product
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Products
+  /orders:
+    summary: Get all orders
+    description: This path retrieves a JSON array of all the orders
+    get:
+      summary: Get all orders
+      description: This path retrieves a JSON array of all the orders
+      operationId: get_orders
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/active:
+    summary: Get active orders
+    description: This path retrieves a JSON array of all active orders
+    get:
+      summary: Get active orders
+      description: This path retrieves a JSON array of all active orders
+      operationId: get_active_orders
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/cancelled:
+    summary: Get all cancelled orders
+    description: This path retrieves a JSON array of all cancelled orders
+    get:
+      summary: Get all cancelled orders
+      description: This path retrieves a JSON array of all cancelled orders
+      operationId: get_cancelled_orders
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/{order_id}:
+    summary: Get one order
+    description: This path gets the data of a single order by a specified order ID
+    get:
+      summary: Get one order
+      description: This path gets the data of a single order by a specified order ID
+      operationId: get_single_order
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/{user_id}:
+    summary: Get all user orders
+    description: This path gets a JSON array of all orders placed by a single user
+    get:
+      summary: Get all user orders
+      description: This path gets a JSON array of all orders placed by a single user
+      operationId: get_user_orders
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/add:
+    summary: Create order
+    description: This path creates an order and adds it to the database
+    post:
+      summary: Create order
+      description: This path creates an order and adds it to the database
+      operationId: create_order
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/{order_id}/mark_complete:
+    summary: Mark order as complete
+    description: This path changes the status of the order to complete
+    put:
+      summary: Mark order as complete
+      description: This path changes the status of the order to complete
+      operationId: mark_order_complete
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/{order_id}/mark_cancelled:
+    summary: Mark order as cancelled
+    description: This path changes the status of the order to cancelled
+    put:
+      summary: Mark order as cancelled
+      description: This path changes the status of the order to cancelled
+      operationId: mark_order_cancelled
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+  /orders/{order_id}/mark_shipped:
+    summary: Mark order as shipped
+    description: This path changes the status of the order to shipped
+    put:
+      summary: Mark order as shipped
+      description: This path changes the status of the order to shipped
+      operationId: mark_order_shipped
+      responses:
+        default:
+          description: Default error sample response
+      tags:
+        - Orders
+
