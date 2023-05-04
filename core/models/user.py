@@ -1,12 +1,17 @@
 from ..extensions import db
 from datetime import datetime
 
+user_orders = db.Table('user_orders',
+    db.Column('user_id', db.Integer, db.ForeignKey('user.id')),
+    db.Column('order_id', db.Integer, db.ForeignKey('order.id'))
+)
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.Text)
-    orders = db.relationship()
+    orders = db.relationship('Order', secondary=user_orders, backref=db.backref('users', lazy='dynamic'))
     street_address = db.Column(db.String(50))
     city = db.Column(db.String(50))
     state = db.Column(db.String(50))
