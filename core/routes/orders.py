@@ -3,13 +3,17 @@ from ..models import Order, User, Product
 from ..models.order import order_product
 from flask_login import current_user
 from ..extensions import db
+from ..functions import check_api_key
 
 orders = Blueprint('orders', __name__, url_prefix='/orders')
 
 @orders.route('/', methods=['GET'])
 def get_orders():
-    orders = Order.query.all()
-    return jsonify([order.to_dict() for order in orders])
+    if check_api_key():
+        orders = Order.query.all()
+        return jsonify([order.to_dict() for order in orders])
+    else:
+        return jsonify({'error': 'Invalid API Key'})
 
 @orders.route('/active/', methods=['GET'])
 def get_active_orders():

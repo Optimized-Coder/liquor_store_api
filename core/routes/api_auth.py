@@ -22,11 +22,15 @@ def create_user():
 
     return jsonify({'message': 'User created'}), 201
 
-@api_user.route('/api/user/', methods=['GET'])
+@api_user.route('/api/user/', methods=['POST'])
 def get_user():
     data = request.get_json()
     user = APIUser.query.filter_by(email=data['email']).first()
+    # print('User: ' + str(user.api_key))
+    # print(type(user.id))
+    # print(type(user.api_key))
     if not user:
-        return jsonify({'message': 'User does not exist'}), 404
+        return jsonify({"message": "User does not exist"}), 404
     if check_password_hash(user.password_hash, data['password']):
         return jsonify(user.to_dict())
+    else: return jsonify({"Error": "Invalid Credentials"})
