@@ -1,6 +1,7 @@
 from flask import Blueprint, jsonify, request
 from ..models import User
-from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.security import (generate_password_hash,
+                                check_password_hash)
 from ..extensions import db
 from flask_login import current_user, login_user, logout_user 
 
@@ -30,14 +31,17 @@ def add_user():
 def login():
     if request.method == 'POST':
         data = request.get_json()
-        user = User.query.filter_by(username=data['username']).first()
-        if user and check_password_hash(user.password_hash, data['password']):
+        user = User.query.filter_by(username=data['username']).\
+            first()
+        if user and check_password_hash(user.password_hash, 
+                                        data['password']):
             login_user(user)
-            return jsonify({"message": "Logged in successfully"}), 200
+            return jsonify({"message": "Logged in successfully"}), \
+                200
         else:
-            return jsonify({'message': 'Invalid credentials'}), 401
+            return jsonify({'message': 'Invalid credentials'}), \
+                401
         
-
 @users.route('/logout/', methods=['POST'])
 def logout():
     logout_user()
