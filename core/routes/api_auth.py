@@ -6,6 +6,30 @@ from ..models import APIUser
 
 api_user = Blueprint('api_user', __name__)
 
+'''
+CREATE USER COMMAND
+
+$ curl -H "Content-Type: application/json" 
+    -X POST -d '{"email": "email@example.com", "password": "123456"}' 
+    http://localhost:5000/api/create_user/
+'''
+
+'''
+View API Key
+
+$ curl -H "Content-Type: application/json"
+    -X POST -d '{"email": "email@example.com", "password": "your-password"}'
+    http://localhost:5000/api/user/
+'''
+
+'''
+Add API Key to request
+
+$ curl -X GET -H "x-api-key: YOUR_API_KEY" 
+    http://localhost:5000/orders/
+'''
+
+
 @api_user.route('/api/create_user/', methods=['POST'])
 def create_user():
     data = request.get_json()

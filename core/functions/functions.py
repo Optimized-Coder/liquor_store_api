@@ -7,3 +7,4 @@ def check_api_key():
         if user.api_key == request.headers.get('x-api-key'):
             return True
     return False
+
