@@ -1,0 +1,989 @@
+[
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "event",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "Admin",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
+        "isExtraImport": true,
+        "detail": "flask_admin",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "core",
+        "description": "core",
+        "isExtraImport": true,
+        "detail": "core",
+        "documentation": {}
+    },
+    {
+        "label": "check_api_key",
+        "kind": 2,
+        "importPath": "core.functions.functions",
+        "description": "core.functions.functions",
+        "peekOfCode": "def check_api_key():\n    users = APIUser.query.all()\n    for user in users:\n        if user.api_key == request.headers.get('x-api-key'):\n            return True\n    return False",
+        "detail": "core.functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "APIUser",
+        "kind": 6,
+        "importPath": "core.models.api_user",
+        "description": "core.models.api_user",
+        "peekOfCode": "class APIUser(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(64), index=True, unique=True)\n    email = db.Column(db.String(120), index=True, unique=True)\n    password_hash = db.Column(db.String(128))\n    api_key = db.Column(db.String(100))\n    created_at = db.Column(db.DateTime, index=True, default=datetime.utcnow)\n    def create_api_key(self):\n        self.api_key = secrets.token_urlsafe(16)\n        db.session.commit()",
+        "detail": "core.models.api_user",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "core.models.order",
+        "description": "core.models.order",
+        "peekOfCode": "class Order(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))\n    products = db.relationship('Product', secondary=order_product, backref=db.backref('orders', lazy='dynamic'))\n    quantity = db.Column(db.Integer)\n    value = db.Column(db.Float)\n    date = db.Column(db.DateTime, default=datetime.utcnow)\n    status = db.Column(db.String(100), default='pending')\n    def to_dict(self):\n        return {",
+        "detail": "core.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "order_product",
+        "kind": 5,
+        "importPath": "core.models.order",
+        "description": "core.models.order",
+        "peekOfCode": "order_product = db.Table('order_product', \n            db.Column('order_id', db.Integer, db.ForeignKey('order.id')),\n            db.Column('product_id', db.Integer, db.ForeignKey('product.id'))\n)\nclass Order(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))\n    products = db.relationship('Product', secondary=order_product, backref=db.backref('orders', lazy='dynamic'))\n    quantity = db.Column(db.Integer)\n    value = db.Column(db.Float)",
+        "detail": "core.models.order",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "core.models.product",
+        "description": "core.models.product",
+        "peekOfCode": "class Product(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100))\n    price = db.Column(db.Float)\n    abv = db.Column(db.Float)\n    country_of_origin = db.Column(db.String(50))\n    quantity_in_stock = db.Column(db.Integer)\n    in_stock = db.Column(db.Boolean, default=True)\n    brand = db.Column(db.String(50))\n    product_type = db.Column(db.String(50))",
+        "detail": "core.models.product",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "class User(UserMixin, db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50))\n    username = db.Column(db.String(64), index=True, unique=True)\n    email = db.Column(db.String(120), index=True, unique=True)\n    password_hash = db.Column(db.Text)\n    orders = db.relationship('Order', secondary=user_orders, backref=db.backref('users', lazy='dynamic'))\n    street_address = db.Column(db.String(50))\n    city = db.Column(db.String(50))\n    state = db.Column(db.String(50))",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "user_orders",
+        "kind": 5,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "user_orders = db.Table('user_orders',\n    db.Column('user_id', db.Integer, db.ForeignKey('user.id')),\n    db.Column('order_id', db.Integer, db.ForeignKey('order.id'))\n)\nclass User(UserMixin, db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50))\n    username = db.Column(db.String(64), index=True, unique=True)\n    email = db.Column(db.String(120), index=True, unique=True)\n    password_hash = db.Column(db.Text)",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "core.routes.api_auth",
+        "description": "core.routes.api_auth",
+        "peekOfCode": "def create_user():\n    data = request.get_json()\n    user = APIUser.query.filter_by(email=data['email']).first()\n    if user:\n        return jsonify({'message': 'User already exists'}), 400\n    user = APIUser(\n        email=data['email'], \n        password_hash=generate_password_hash(data['password'])\n    )\n    db.session.add(user)",
+        "detail": "core.routes.api_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "core.routes.api_auth",
+        "description": "core.routes.api_auth",
+        "peekOfCode": "def get_user():\n    data = request.get_json()\n    user = APIUser.query.filter_by(email=data['email']).first()\n    if not user:\n        return jsonify({\"message\": \"User does not exist\"}), 404\n    if check_password_hash(user.password_hash, data['password']):\n        return jsonify(user.to_dict())\n    else: return jsonify({\"Error\": \"Invalid Credentials\"})",
+        "detail": "core.routes.api_auth",
+        "documentation": {}
+    },
+    {
+        "label": "api_user",
+        "kind": 5,
+        "importPath": "core.routes.api_auth",
+        "description": "core.routes.api_auth",
+        "peekOfCode": "api_user = Blueprint('api_user', __name__)\n'''\nCREATE USER COMMAND\n$ curl -H \"Content-Type: application/json\" \n    -X POST -d '{\"email\": \"email@example.com\", \"password\": \"123456\"}' \n    http://localhost:5000/api/create_user/\n'''\n'''\nView API Key\n$ curl -H \"Content-Type: application/json\"",
+        "detail": "core.routes.api_auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_orders",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def get_orders():\n    if check_api_key():\n        orders = Order.query.all()\n        return jsonify([order.to_dict() for order in orders])\n    else:\n        return jsonify({'error': 'Invalid API Key'})\n@orders.route('/active/', methods=['GET'])\ndef get_active_orders():\n    orders = Order.query.filter_by(status='active').all()\n    return jsonify([order.to_dict() for order in orders])",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "get_active_orders",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def get_active_orders():\n    orders = Order.query.filter_by(status='active').all()\n    return jsonify([order.to_dict() for order in orders])\n@orders.route('/cancelled/', methods=['GET'])\ndef get_cancelled_orders():\n    orders = Order.query.filter_by(status='cancelled').all()\n    return jsonify([order.to_dict() for order in orders])\n@orders.route('/<int:id>/', methods=['GET'])\ndef get_order(id):\n    order = Order.query.get_or_404(id)",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "get_cancelled_orders",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def get_cancelled_orders():\n    orders = Order.query.filter_by(status='cancelled').all()\n    return jsonify([order.to_dict() for order in orders])\n@orders.route('/<int:id>/', methods=['GET'])\ndef get_order(id):\n    order = Order.query.get_or_404(id)\n    return jsonify(order.to_dict())\n@orders.route('/by_user/<int:user_id>/', methods=['GET'])\ndef get_user_orders(user_id):\n    orders = Order.query.filter_by(user_id=user_id).all()",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "get_order",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def get_order(id):\n    order = Order.query.get_or_404(id)\n    return jsonify(order.to_dict())\n@orders.route('/by_user/<int:user_id>/', methods=['GET'])\ndef get_user_orders(user_id):\n    orders = Order.query.filter_by(user_id=user_id).all()\n    return jsonify([order.to_dict() for order in orders])\n@orders.route('/create/', methods=['GET', 'POST'])\ndef create_order():\n    if request.method == 'POST':",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_orders",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def get_user_orders(user_id):\n    orders = Order.query.filter_by(user_id=user_id).all()\n    return jsonify([order.to_dict() for order in orders])\n@orders.route('/create/', methods=['GET', 'POST'])\ndef create_order():\n    if request.method == 'POST':\n        if current_user.is_authenticated:\n            data = request.get_json()\n            new_order = Order(\n                user_id=current_user.id",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "create_order",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def create_order():\n    if request.method == 'POST':\n        if current_user.is_authenticated:\n            data = request.get_json()\n            new_order = Order(\n                user_id=current_user.id\n            )\n            product_ids = [id for id in data['products']]\n            products = Product.query.filter(Product.id.in_(product_ids))\n            for product in products:",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "mark_complete",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def mark_complete(id):\n    order = Order.query.get_or_404(id)\n    order.status = 'complete'\n    db.session.commit()\n    return order.to_dict()\n@orders.route('/<int:id>/mark_cancelled/', methods=['PUT'])\ndef mark_cancelled(id):\n    order = Order.query.get_or_404(id)\n    order.status = 'cancelled'\n    db.session.commit()",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "mark_cancelled",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def mark_cancelled(id):\n    order = Order.query.get_or_404(id)\n    order.status = 'cancelled'\n    db.session.commit()\n    return order.to_dict()\n@orders.route('/<int:id>/mark_shipped/', methods=['PUT'])\ndef mark_shipped(id):\n    order = Order.query.get_or_404(id)\n    order.status ='shipped'\n    db.session.commit()",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "mark_shipped",
+        "kind": 2,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "def mark_shipped(id):\n    order = Order.query.get_or_404(id)\n    order.status ='shipped'\n    db.session.commit()\n    return order.to_dict()",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "orders",
+        "kind": 5,
+        "importPath": "core.routes.orders",
+        "description": "core.routes.orders",
+        "peekOfCode": "orders = Blueprint('orders', __name__, url_prefix='/orders')\n@orders.route('/', methods=['GET'])\ndef get_orders():\n    if check_api_key():\n        orders = Order.query.all()\n        return jsonify([order.to_dict() for order in orders])\n    else:\n        return jsonify({'error': 'Invalid API Key'})\n@orders.route('/active/', methods=['GET'])\ndef get_active_orders():",
+        "detail": "core.routes.orders",
+        "documentation": {}
+    },
+    {
+        "label": "get_products",
+        "kind": 2,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "def get_products():\n    products = Product.query.all()\n    return jsonify([product.to_dict() for product in products])\n@products.route('/add/', methods=['GET', 'POST'])\ndef add_product():\n    if request.method == 'POST':\n        data = request.get_json()\n        new_product = Product(\n            name=data['name'],\n            price=data['price'],",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "add_product",
+        "kind": 2,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "def add_product():\n    if request.method == 'POST':\n        data = request.get_json()\n        new_product = Product(\n            name=data['name'],\n            price=data['price'],\n            abv=data['abv'],\n            image_url=data['image_url'],\n            description=data['description'],\n            country_of_origin=data['country'],",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "get_product",
+        "kind": 2,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "def get_product(id):\n    product = Product.query.filter_by(id=id).first()\n    return jsonify(product.to_dict())\n@products.route('/brands/<brand>/', methods=['GET'])\ndef get_products_by_brand(brand):\n    product = Product.query.filter_by(brand=brand).all()\n    return jsonify([product.to_dict() for product in product])\n@products.route('/<int:id>/edit/', methods=['PUT', 'GET'])\ndef edit_product(id):\n    pass",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "get_products_by_brand",
+        "kind": 2,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "def get_products_by_brand(brand):\n    product = Product.query.filter_by(brand=brand).all()\n    return jsonify([product.to_dict() for product in product])\n@products.route('/<int:id>/edit/', methods=['PUT', 'GET'])\ndef edit_product(id):\n    pass\n@products.route('/<int:id>/delete/', methods=['DELETE'])\ndef delete_product(id):\n    product = Product.query.filter_by(id=id).first()\n    db.session.delete(product)",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "edit_product",
+        "kind": 2,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "def edit_product(id):\n    pass\n@products.route('/<int:id>/delete/', methods=['DELETE'])\ndef delete_product(id):\n    product = Product.query.filter_by(id=id).first()\n    db.session.delete(product)\n    db.session.commit()\n    return {\"message\": \"Product deleted\"}, 300",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product",
+        "kind": 2,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "def delete_product(id):\n    product = Product.query.filter_by(id=id).first()\n    db.session.delete(product)\n    db.session.commit()\n    return {\"message\": \"Product deleted\"}, 300",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 5,
+        "importPath": "core.routes.products",
+        "description": "core.routes.products",
+        "peekOfCode": "products = Blueprint('products', __name__, url_prefix='/products')\n@products.route('/', methods=['GET'])\ndef get_products():\n    products = Product.query.all()\n    return jsonify([product.to_dict() for product in products])\n@products.route('/add/', methods=['GET', 'POST'])\ndef add_product():\n    if request.method == 'POST':\n        data = request.get_json()\n        new_product = Product(",
+        "detail": "core.routes.products",
+        "documentation": {}
+    },
+    {
+        "label": "get_users",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def get_users():\n    users = User.query.all()\n    return jsonify([user.to_dict() for user in users])\n@users.route('/add/', methods=['GET', 'POST'])\ndef add_user():\n    if request.method == 'POST':\n        data = request.get_json()\n        user = User(\n            name=data['name'], \n            username=data['username'],",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def add_user():\n    if request.method == 'POST':\n        data = request.get_json()\n        user = User(\n            name=data['name'], \n            username=data['username'],\n            email=data['email'], \n            password_hash=generate_password_hash(data['password'])\n        )\n        db.session.add(user)",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def login():\n    if request.method == 'POST':\n        data = request.get_json()\n        user = User.query.filter_by(username=data['username']).\\\n            first()\n        if user and check_password_hash(user.password_hash, \n                                        data['password']):\n            login_user(user)\n            return jsonify({\"message\": \"Logged in successfully\"}), \\\n                200",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def logout():\n    logout_user()\n    return jsonify({\"message\": \"Logged out successfully\"}), 200\n@users.route('/<int:user_id>/', methods=['GET'])\ndef get_user(user_id):\n    user = User.query.filter_by(id=user_id).first()\n    return jsonify(user.to_dict())\n@users.route('/<int:id>/delete/', methods=['DELETE'])\ndef delete_user(id):\n    user = User.query.filter_by(id=id).first()",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def get_user(user_id):\n    user = User.query.filter_by(id=user_id).first()\n    return jsonify(user.to_dict())\n@users.route('/<int:id>/delete/', methods=['DELETE'])\ndef delete_user(id):\n    user = User.query.filter_by(id=id).first()\n    db.session.delete(user)\n    db.session.commit()\n    print(f'Deleted User {user.username}')\n    return jsonify({\"message\": \"User deleted successfully\"}), 200",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def delete_user(id):\n    user = User.query.filter_by(id=id).first()\n    db.session.delete(user)\n    db.session.commit()\n    print(f'Deleted User {user.username}')\n    return jsonify({\"message\": \"User deleted successfully\"}), 200\n@users.route('/<int:user_id>/edit/', methods=['GET', 'POST'])\ndef edit_user(user_id):\n    pass",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "edit_user",
+        "kind": 2,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "def edit_user(user_id):\n    pass",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "kind": 5,
+        "importPath": "core.routes.users",
+        "description": "core.routes.users",
+        "peekOfCode": "users = Blueprint('users', __name__, url_prefix='/users')\n@users.route('/', methods=['GET'])\ndef get_users():\n    users = User.query.all()\n    return jsonify([user.to_dict() for user in users])\n@users.route('/add/', methods=['GET', 'POST'])\ndef add_user():\n    if request.method == 'POST':\n        data = request.get_json()\n        user = User(",
+        "detail": "core.routes.users",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "db = SQLAlchemy()\nmigrate = Migrate()\nlogin_manager = LoginManager()\nadmin = Admin(name='Liquor Store API', template_mode='bootstrap3')\ncors = CORS()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "migrate = Migrate()\nlogin_manager = LoginManager()\nadmin = Admin(name='Liquor Store API', template_mode='bootstrap3')\ncors = CORS()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "login_manager = LoginManager()\nadmin = Admin(name='Liquor Store API', template_mode='bootstrap3')\ncors = CORS()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "admin = Admin(name='Liquor Store API', template_mode='bootstrap3')\ncors = CORS()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "cors",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "cors = CORS()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.2fd178da77b0_",
+        "description": "migrations.versions.2fd178da77b0_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('name', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('name')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.2fd178da77b0_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.2fd178da77b0_",
+        "description": "migrations.versions.2fd178da77b0_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('name')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.2fd178da77b0_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.2fd178da77b0_",
+        "description": "migrations.versions.2fd178da77b0_",
+        "peekOfCode": "revision = '2fd178da77b0'\ndown_revision = 'c3673dff69b7'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('name', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.2fd178da77b0_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.2fd178da77b0_",
+        "description": "migrations.versions.2fd178da77b0_",
+        "peekOfCode": "down_revision = 'c3673dff69b7'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('name', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.2fd178da77b0_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.2fd178da77b0_",
+        "description": "migrations.versions.2fd178da77b0_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('name', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:",
+        "detail": "migrations.versions.2fd178da77b0_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.2fd178da77b0_",
+        "description": "migrations.versions.2fd178da77b0_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('name', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('name')",
+        "detail": "migrations.versions.2fd178da77b0_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "description": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('quantity_in_stock', sa.Integer(), nullable=True))\n        batch_op.add_column(sa.Column('in_stock', sa.Boolean(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.drop_column('in_stock')",
+        "detail": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "description": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.drop_column('in_stock')\n        batch_op.drop_column('quantity_in_stock')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "description": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "peekOfCode": "revision = '4b430612ba86'\ndown_revision = 'b9f95dd35279'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('quantity_in_stock', sa.Integer(), nullable=True))\n        batch_op.add_column(sa.Column('in_stock', sa.Boolean(), nullable=True))\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "description": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "peekOfCode": "down_revision = 'b9f95dd35279'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('quantity_in_stock', sa.Integer(), nullable=True))\n        batch_op.add_column(sa.Column('in_stock', sa.Boolean(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "description": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('quantity_in_stock', sa.Integer(), nullable=True))\n        batch_op.add_column(sa.Column('in_stock', sa.Boolean(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "description": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('quantity_in_stock', sa.Integer(), nullable=True))\n        batch_op.add_column(sa.Column('in_stock', sa.Boolean(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:",
+        "detail": "migrations.versions.4b430612ba86_add_inventory_to_product_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b9f95dd35279_",
+        "description": "migrations.versions.b9f95dd35279_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('api_user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=64), nullable=True),\n    sa.Column('email', sa.String(length=120), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.Column('api_key', sa.String(length=100), nullable=True),\n    sa.Column('created_at', sa.DateTime(), nullable=True),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.b9f95dd35279_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b9f95dd35279_",
+        "description": "migrations.versions.b9f95dd35279_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('api_user', schema=None) as batch_op:\n        batch_op.drop_index(batch_op.f('ix_api_user_username'))\n        batch_op.drop_index(batch_op.f('ix_api_user_email'))\n        batch_op.drop_index(batch_op.f('ix_api_user_created_at'))\n    op.drop_table('api_user')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.b9f95dd35279_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.b9f95dd35279_",
+        "description": "migrations.versions.b9f95dd35279_",
+        "peekOfCode": "revision = 'b9f95dd35279'\ndown_revision = '2fd178da77b0'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('api_user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=64), nullable=True),\n    sa.Column('email', sa.String(length=120), nullable=True),",
+        "detail": "migrations.versions.b9f95dd35279_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.b9f95dd35279_",
+        "description": "migrations.versions.b9f95dd35279_",
+        "peekOfCode": "down_revision = '2fd178da77b0'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('api_user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=64), nullable=True),\n    sa.Column('email', sa.String(length=120), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),",
+        "detail": "migrations.versions.b9f95dd35279_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.b9f95dd35279_",
+        "description": "migrations.versions.b9f95dd35279_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('api_user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=64), nullable=True),\n    sa.Column('email', sa.String(length=120), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.Column('api_key', sa.String(length=100), nullable=True),",
+        "detail": "migrations.versions.b9f95dd35279_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.b9f95dd35279_",
+        "description": "migrations.versions.b9f95dd35279_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('api_user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=64), nullable=True),\n    sa.Column('email', sa.String(length=120), nullable=True),\n    sa.Column('password_hash', sa.String(length=128), nullable=True),\n    sa.Column('api_key', sa.String(length=100), nullable=True),\n    sa.Column('created_at', sa.DateTime(), nullable=True),",
+        "detail": "migrations.versions.b9f95dd35279_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c3673dff69b7_update_product_schema",
+        "description": "migrations.versions.c3673dff69b7_update_product_schema",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('abv', sa.Float(), nullable=True))\n        batch_op.add_column(sa.Column('country_of_origin', sa.String(length=50), nullable=True))\n        batch_op.add_column(sa.Column('brand', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:",
+        "detail": "migrations.versions.c3673dff69b7_update_product_schema",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c3673dff69b7_update_product_schema",
+        "description": "migrations.versions.c3673dff69b7_update_product_schema",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.drop_column('brand')\n        batch_op.drop_column('country_of_origin')\n        batch_op.drop_column('abv')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c3673dff69b7_update_product_schema",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c3673dff69b7_update_product_schema",
+        "description": "migrations.versions.c3673dff69b7_update_product_schema",
+        "peekOfCode": "revision = 'c3673dff69b7'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('abv', sa.Float(), nullable=True))\n        batch_op.add_column(sa.Column('country_of_origin', sa.String(length=50), nullable=True))\n        batch_op.add_column(sa.Column('brand', sa.String(length=50), nullable=True))",
+        "detail": "migrations.versions.c3673dff69b7_update_product_schema",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c3673dff69b7_update_product_schema",
+        "description": "migrations.versions.c3673dff69b7_update_product_schema",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('abv', sa.Float(), nullable=True))\n        batch_op.add_column(sa.Column('country_of_origin', sa.String(length=50), nullable=True))\n        batch_op.add_column(sa.Column('brand', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c3673dff69b7_update_product_schema",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.c3673dff69b7_update_product_schema",
+        "description": "migrations.versions.c3673dff69b7_update_product_schema",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('abv', sa.Float(), nullable=True))\n        batch_op.add_column(sa.Column('country_of_origin', sa.String(length=50), nullable=True))\n        batch_op.add_column(sa.Column('brand', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.c3673dff69b7_update_product_schema",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.c3673dff69b7_update_product_schema",
+        "description": "migrations.versions.c3673dff69b7_update_product_schema",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('product', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('abv', sa.Float(), nullable=True))\n        batch_op.add_column(sa.Column('country_of_origin', sa.String(length=50), nullable=True))\n        batch_op.add_column(sa.Column('brand', sa.String(length=50), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.c3673dff69b7_update_product_schema",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    }
+]
